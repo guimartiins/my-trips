@@ -1,6 +1,10 @@
 import { Map } from '.'
 import { render, screen } from '@testing-library/react'
 
+jest.mock('next/navigation', () => ({
+  useRouter: jest.fn()
+}))
+
 describe('<Map />', () => {
   it('should render without any marker', () => {
     render(<Map />)

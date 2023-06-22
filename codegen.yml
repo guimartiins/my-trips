@@ -1,0 +1,9 @@
+overwrite: true
+schema: "https://api-sa-east-1.hygraph.com/v2/clj6ervii0x3y01t8bstkc29o/master"
+documents: "src/graphql/queries.ts"
+generates:
+  src/graphql/generated/:
+    preset: "client"
+    plugins:
+      - add:
+          content: '/* eslint-disable */'
