@@ -12,6 +12,10 @@ export const Wrapper = styled.div`
     transition: color 0.3s ease-in-out;
   }
 
+  a {
+    color: var(--white);
+  }
+
   &:hover {
     svg {
       color: var(--highlight);
