@@ -12,5 +12,8 @@ module.exports = withPWA({
   // next.js config
   images: {
     domains: ['media.graphassets.com']
+  },
+  experimental: {
+    forceSwcTransforms: true
   }
 })
