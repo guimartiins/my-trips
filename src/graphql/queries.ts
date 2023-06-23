@@ -40,6 +40,7 @@ export const GET_PLACES = gql`
       }
       description {
         html
+        text
       }
       gallery {
         url
@@ -62,6 +63,7 @@ export const GET_PLACE_BY_SLUG = gql`
       }
       description {
         html
+        text
       }
       gallery {
         url

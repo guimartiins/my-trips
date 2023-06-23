@@ -23,6 +23,14 @@ export const Gallery = styled.div`
   display: grid;
   grid-gap: var(--medium);
 
+  @media (max-width: 800px) {
+    align-items: center;
+    img {
+      width: 30rem;
+      height: 30rem;
+    }
+  }
+
   img {
     background: #f6f7f8;
     background-image: linear-gradient(
