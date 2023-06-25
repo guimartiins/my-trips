@@ -15,12 +15,12 @@ export const HomeTemplate = ({ places }: MapProps) => {
       <NextSeo
         title="My trips"
         description="A simple project to show in a map the places that I want to visit."
-        canonical="https://my-trips.castmoon.com.br"
+        canonical="https://my-trips.guimartiins.com.br"
         openGraph={{
-          url: 'https://my-trips.castmoon.com.br',
+          url: 'https://my-trips.guimartiins.com.br',
           images: [
             {
-              url: 'https://my-trips.castmoon.com.br/img/cover.png',
+              url: 'https://my-trips.guimartiins.com.br/img/cover.png',
               width: 1280,
               height: 720,
               alt: 'My trips',
